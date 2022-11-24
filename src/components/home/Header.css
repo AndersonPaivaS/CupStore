@@ -1,0 +1,71 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100vw;
+    height: 10vh;
+
+    background-image: linear-gradient(to bottom, #e0ffe9, #f0fdf4);
+}
+
+.headerContainer h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: seagreen;
+}
+
+.clientName, .storeName {
+    font-weight: 700;
+
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.cart > button {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: .1rem;
+}
+
+.cart > button span {
+    padding: .1rem .5rem;
+    color: #f0fdf4;
+    background: #047857;
+    border-radius: 50%;
+}
+
+button img {
+    width: 2.5rem;
+}
+
+#clearButton {
+    padding: .4rem;
+
+    color: #e0ffe9;
+    font-weight: 500;
+    background: #047857;
+    border: 0;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1200px){
+    .headerContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 0rem 0rem 0rem;
+    }
+
+    .headerContainer h1 {
+        font-size: 1rem;
+
+    }
+    
+    
+}
